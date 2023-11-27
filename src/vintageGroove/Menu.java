@@ -1,6 +1,12 @@
 package vintageGroove;
 
 import java.util.Scanner;
+import vintageGroove.model.CD;
+import vintageGroove.model.Disco;
+import vintageGroove.model.Produto;
+import vintageGroove.repository.ProdutoRepository;
+
+
 
 public class Menu {
 

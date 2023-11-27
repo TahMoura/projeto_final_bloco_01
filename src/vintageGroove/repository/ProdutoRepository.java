@@ -13,4 +13,8 @@ public interface ProdutoRepository {
     
     // Métodos específicos para Produto
     void visualizarDetalhes(int id);
+    void consultarPorNome(String nome);
+    void consultarPorTipo(String tipo);
+    void atualizarPorTipo(String tipo, Produto produto);
+    void deletarPorTipo(String tipo, int id);
 }
